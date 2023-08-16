@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background: radial-gradient(circle, #ffcccc, #990000);
+}
+td {
+  border: 2px solid black;
+  padding: 50px;
+}
+table {
+  display: block;
+  border: 2px solid black;
+}
+header,
+footer {
+
+  display: flex;
+  justify-content: center;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: black;
+}
+tr:nth-child(even) td:nth-child(even) {
+  background-color: black;
+}
